@@ -204,7 +204,8 @@ def user_stats(df):
 
 
 def display_raw_data(df):
-
+    """Prompts user if they want to view raw data and displays raw data if yes."""
+     
     print(df.head())
 
     counter = 0
