@@ -4,7 +4,6 @@
 
 import time
 import pandas as pd
-import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -208,15 +207,14 @@ def display_raw_data(df):
      
     print(df.head())
 
-    counter = 0
-
+    line_counter = 0
 
     while True:
           display_raw = input("Would you like to view the next 5 lines of raw data (yes or no)?\n").lower()
 
           if display_raw == 'yes':
-            counter = counter + 5
-            print(df.iloc[counter:counter + 5])
+            line_counter = line_counter + 5
+            print(df.iloc[line_counter:line_counter + 5])
           else:
             break
 
