@@ -7,7 +7,7 @@
 Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+This project taks user input based on a set of bikeshare data and outputs stats about users/trips/time of desired input.  It also provides an option to view the raw data of the data set if desired.
 
 ### Files used
 Include the files used
